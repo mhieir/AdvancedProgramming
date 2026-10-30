@@ -1,0 +1,2 @@
+color=red
+name=I am edfeaf

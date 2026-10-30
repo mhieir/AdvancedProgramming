@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>share Post Page</title>
+	<style>
+		body{
+			background-color: rgba(241, 204, 149, 0.804);
+			font-family: fantasy;
+			text-align: center;
+		}
+		.login_form{
+			background-color: rgba(215, 238, 236, 0.934);
+			padding: 1%;
+			max-width: 50%;
+			height: 230px;
+			border-radius: 3px;
+			margin: auto;
+			margin-top: 5%;
+
+		}
+		.options_class{
+			display: block;
+			margin: auto;
+            margin-bottom: 10px;
+			padding: 5px;
+			width: 94%;
+		}
+		#password_id{
+			margin-left: 10px;
+		}
+	</style>
+</head>
+
+<body>
+	<section class="login_form">
+		<h2>Share Post</h2>
+		<form action="/sharePost" method="post" >
+			<input name="title" type="text" placeholder="title" class="options_class">
+			<input name="message" type="text" placeholder="message" class="options_class">
+            <input name="file_name" type="text" placeholder="File Name" class="options_class">
+            <input type="file" name="file" class="options_class" id="password_id" value="">
+            <input type="submit" value="Upload">
+		</form>
+	</section>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home Page</title>
+	<style>
+		body{
+			background-color: rgba(215, 238, 236, 0.934);
+		}
+		* {
+			font-family: fantasy;
+			border: 0;
+			text-align: center;
+			padding: 0;
+		}
+		.utms_class {
+			width: 100%;
+			margin-left: 0%;
+			height: 100px;
+			font-size: 60px;
+		}
+		.login_id {
+			height: 50px;
+			background-color: rgba(241, 204, 149, 0.804);
+			font-size: 30px;
+			margin-left: 10%;
+			width: 20%;
+		}
+		.opptions{
+			display: flex;
+		}
+		.Uni_pic{
+			width: 100%;
+		}
+		.div_uni_pic{
+			margin-top: 5%;
+			width: 60%;
+			margin-left: 20%;
+		}
+		.back_home_id{
+			height: 50px;
+			background-color: rgba(241, 204, 149, 0);
+			font-size: 30px;
+			width: 100%;
+			cursor: pointer;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="utms_class">UTMS</div>
+	<div class="opptions">
+		<div class="login_id" id="/login" name = "/login"><a href="login">Login</a></div>
+		<div class="login_id" id="/login" name = "/login"><form action="/backHome" method="post" >
+			<input type="submit" class="back_home_id" value="Profile">
+		  </form></div>
+		<div class="login_id" id="/login" name = "/login">Gallery</div>
+	</div>
+	<div class="div_uni_pic">
+		<img src="1.png" class="Uni_pic" alt="Home Logo">
+	</div>
+</body>
+
+</html>
+
